@@ -27,7 +27,7 @@ dependencies {
     implementation("io.ktor:ktor-client-core-jvm:3.4.1")
     testImplementation(libs.ktor.server.test.host)
     testImplementation("org.mockito.kotlin:mockito-kotlin:6.2.3")
-    runtimeOnly("io.ktor:ktor-client-mock:3.4.1")
+    testImplementation("io.ktor:ktor-client-mock:3.4.1")
     implementation("com.google.dagger:dagger-compiler:2.51.1")
     ksp("com.google.dagger:dagger-compiler:2.51.1")
 }
