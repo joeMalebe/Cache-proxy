@@ -5,8 +5,9 @@
 
 ## How to run
 ### Application
-1. Run the executable file from terminal using `./cache-proxy --port 8080 --host http://power.lowyinstitute.org`
-2. Open a browser and make requests through `http://0.0.0.0:8080`
+1. The executable is found in the root folder as `cache-proxy`
+2. Run the executable file from terminal using `./cache-proxy --port 8080 --host http://power.lowyinstitute.org`
+3. Open a browser and make requests through `http://0.0.0.0:8080`
 ### Gradle task
 1. Open the IDE's terminal(Intellij) or navigate to projects route folder `cache-proxy` in terminal
 2. Run the gradle task 
