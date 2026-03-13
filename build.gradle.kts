@@ -8,7 +8,7 @@ group = "com.sbsa.ds.business-lending-digital"
 version = "1.0-SNAPSHOT"
 
 application {
-    mainClass = "io.ktor.server.netty.EngineMain"
+    mainClass = "com.cache.proxy.ApplicationKt"
 }
 
 repositories {
@@ -24,6 +24,7 @@ dependencies {
     implementation(libs.logback.classic)
     implementation(libs.ktor.server.core)
     implementation(libs.ktor.server.config.yaml)
+    implementation(libs.ktor.client.cio)
     implementation("io.ktor:ktor-client-core-jvm:3.4.1")
     testImplementation(libs.ktor.server.test.host)
     testImplementation("org.mockito.kotlin:mockito-kotlin:6.2.3")
